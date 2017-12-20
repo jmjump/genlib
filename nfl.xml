@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<nfl>
+	<conference abbrev="AFC" name="American Football Conference">
+		<division name="North">
+			<team abbrev="NE" name="New England Patriots"/>
+			<team abbrev="MIA" name="Miami Dolphins"/>
+			<team abbrev="BUF" name="Buffalo Bills"/>
+			<team abbrev="NYJ" name="New York Jets"/>
+		</division>
+
+		<division name="East">
+			<team abbrev="BAL" name="Baltimore Ravens"/>
+			<team abbrev="PIT" name="Pittsburgh Steelers"/>
+			<team abbrev="CLE" name="Cleveland Browns"/>
+			<team abbrev="CIN" name="Cincinnati Bengals"/>
+		</division>
+
+		<division name="South">
+			<team abbrev="HOU" name="Houston Texans"/>
+			<team abbrev="TEN" name="Tennessee Titans"/>
+			<team abbrev="IND" name="Indianapolis Colts"/>
+			<team abbrev="JAX" name="Jacksonville Jaguars"/>
+		</division>
+
+		<division name="West">
+			<team abbrev="OAK" name="Oakland Raiders"/>
+			<team abbrev="KC" name="Kansas City Chiefs"/>
+			<team abbrev="DEN" name="Denver Broncos"/>
+			<team abbrev="SD" name="San Diego Chargers"/>
+		</division>
+	</conference>
+
+	<conference abbrev="NFC" name="National Football Conference">
+		<division name="North">
+			<team abbrev="GB" name="Green Bay Packers"/>
+			<team abbrev="MIN" name="Minnesota Vikings"/>
+			<team abbrev="DET" name="Detroit Lions"/>
+			<team abbrev="CHI" name="Chicago Bears"/>
+		</division>
+
+		<division name="East">
+			<team abbrev="WAS" name="Washington Redskins"/>
+			<team abbrev="DAL" name="Dallas Cowboys"/>
+			<team abbrev="NYG" name="New York Giants"/>
+			<team abbrev="PHI" name="Philadelphia Eagles"/>
+		</division>
+
+		<division name="South">
+			<team abbrev="NO" name="New Orleans Saints"/>
+			<team abbrev="TB" name="Tampa Bay Buccaneers"/>
+			<team abbrev="CAR" name="Carolina Panthers"/>
+			<team abbrev="ATL" name="Atlanta Falcons"/>
+		</division>
+
+		<division name="West">
+			<team abbrev="SF" name="San Francisco 49ers"/>
+			<team abbrev="LA" name="Los Angeles Rams"/>
+			<team abbrev="SEA" name="Seattle Seahawks"/>
+			<team abbrev="ARI" name="Arizona Cardinals"/>
+		</division>
+	</conference>
+
+	<results>
+		<week id="1">
+			<game>DEN 21 CAR 20</game>
+			<game>JAX 23 GB 27</game>
+			<game>KC 33 SD 27</game>
+			<game>NO 34 OAK 35</game>
+			<game>NYJ 22 CIN 23</game>
+			<game>PHI 29 CLE 10</game>
+			<game>TEN 16 MIN 25</game>
+			<game>HOU 23 CHI 14</game>
+			<game>BAL 13 BUF 7</game>
+			<game>ATL 24 TB 31</game>
+			<game>SEA 12 MIA 10</game>
+			<game>DAL 19 NYG 20</game>
+			<game>IND 35 DET 39</game>
+			<game>ARI 21 NE 23</game>
+			<game>WAS 16 PIT 38</game>
+			<game>SF 28 LA 0</game>
+		</week>
+
+		<week id="2">
+			<game>BUF 31 NYJ 37</game>
+			<game>CAR 46 SF 27</game>
+			<game>WAS 23 DAL 27</game>
+			<game>PIT 24 CIN 16</game>
+			<game>NYG 16 NO 13</game>
+			<game>NE 31 MIA 24</game>
+			<game>HOU 19 KC 12</game>
+			<game>DET 15 TEN 16</game>
+			<game>CLE 20 BAL 25</game>
+			<game>LA 9 SEA 3</game>
+			<game>ARI 40 TB 7</game>
+			<game>SD 38 JAX 14</game>
+			<game>OAK 28 ATL 35</game>
+			<game>DEN 34 IND 20</game>
+			<game>MIN 17 GB 14</game>
+			<game>CHI 14 PHI 29</game>
+		</week>
+
+		<week id="3">
+			<game>NE 27 HOU 0</game>
+			<game>BUF 33 ARI 18</game>
+			<game>TEN 10 OAK 17</game>
+			<game>NYG 27 WAS 29</game>
+			<game>MIA 30 CLE 24</game>
+			<game>JAX 17 BAL 19</game>
+			<game>GB 34 DET 27</game>
+			<game>CIN 17 DEN 29</game>
+			<game>CAR 10 MIN 22</game>
+			<game>TB 32 LA 37</game>
+			<game>SEA 37 SF 18</game>
+			<game>KC 24 NYJ 3</game>
+			<game>IND 26 SD 22</game>
+			<game>PHI 34 PIT 3</game>
+			<game>DAL 31 CHI 17</game>
+			<game>NO 32 ATL 45</game>
+		</week>
+	</results>
+</nfl>
