@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 #include "CThread.h"
 
 #include "Common.h"

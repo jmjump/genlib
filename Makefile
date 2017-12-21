@@ -1,4 +1,5 @@
-TARGETS=	example1 example2 example3
+#TARGETS=	example1 example2 example3
+TARGETS=	example1 example2
 
 CC=			g++
 
@@ -50,20 +51,21 @@ example2:	example2.o $(EXAMPLE2_LIB) $(HDRS)
 
 
 
-EXAMPLE3_OBJS=		Common.o CThread.o timeUtils.o
-EXAMPLE3_LIB=		example3.a
-$(EXAMPLE3_LIB):	$(EXAMPLE3_OBJS) $(HDRS)
-	ar -r $(@) $(EXAMPLE3_OBJS)
+#EXAMPLE3_OBJS=		Common.o CThread.o timeUtils.o
+#EXAMPLE3_LIB=		example3.a
+#$(EXAMPLE3_LIB):	$(EXAMPLE3_OBJS) $(HDRS)
+	#ar -r $(@) $(EXAMPLE3_OBJS)
+#
+#EXAMPLE3_LIBS=		$(EXAMPLE3_LIB) -lpthread -lrt $(TINYXML2_LIB)
+#example3:	example3.o $(EXAMPLE3_LIB) $(HDRS)
+	#$(CC) $(CFLAGS) -o $@ example3.o $(EXAMPLE3_LIBS)
+#
+#
+#
+#
 
-EXAMPLE3_LIBS=		$(EXAMPLE3_LIB) -lpthread -lrt $(TINYXML2_LIB)
-example3:	example3.o $(EXAMPLE3_LIB) $(HDRS)
-	$(CC) $(CFLAGS) -o $@ example3.o $(EXAMPLE3_LIBS)
-
-
-
-
-
-EXAMPLE_LIBS=		$(EXAMPLE1_LIB) $(EXAMPLE2_LIB) $(EXAMPLE3_LIB)
+#EXAMPLE_LIBS=		$(EXAMPLE1_LIB) $(EXAMPLE2_LIB) $(EXAMPLE3_LIB)
+EXAMPLE_LIBS=		$(EXAMPLE1_LIB) $(EXAMPLE2_LIB)
 
 clean:
 	rm -f *.o $(TARGETS) $(EXAMPLE_LIBS)
