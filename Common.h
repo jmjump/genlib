@@ -22,7 +22,7 @@ extern int				g_debugLevel;
 		localtime_r(&now.tv_sec, &tmNow);							\
 		char timeStr[64];											\
 		strftime(timeStr, sizeof(timeStr), "%b %d %T", &tmNow);		\
-		printf("%s.%03d: ", timeStr, now.tv_usec / 1000);			\
+		printf("%s.%03d: ", timeStr, (int) now.tv_usec / 1000);		\
 		printf(__VA_ARGS__);										\
 	}
 
