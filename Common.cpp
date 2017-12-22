@@ -8,7 +8,7 @@ int g_debugLevel = 0;
 
 std::string makeString (const char* fmt, ...)
 {
-    int size = 256;
+    int size = 512;
     char* buffer = new char[size];
     va_list vl;
     va_start(vl, fmt);
