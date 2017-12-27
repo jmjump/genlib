@@ -39,7 +39,7 @@ example1:	example1.o $(EXAMPLE1_LIB) $(HDRS)
 
 
 
-EXAMPLE2_OBJS=		main.o Common.o CThread.o timeUtils.o
+EXAMPLE2_OBJS=		main.o Common.o CThread.o timeUtils.o CLI.o
 EXAMPLE2_LIB=		example2.a
 $(EXAMPLE2_LIB):	$(EXAMPLE2_OBJS) $(HDRS)
 	ar -r $(@) $(EXAMPLE2_OBJS)
