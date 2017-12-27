@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdarg.h>
 #include <unistd.h>
+#include <string.h>
 
 #include "Common.h"
 
@@ -142,7 +143,7 @@ void CLI::processInput (FILE* fp) {
 
 		// break the "line" into semicolon separated commands
 		char* savePtr;
-		char* separator = ";";
+		const char* separator = ";";
 		char* cmd;
 		while (cmd = strtok_r(pLine, separator, &savePtr)) {
 			processLine(cmd);
